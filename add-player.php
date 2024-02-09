@@ -17,7 +17,7 @@ include('Shared/header.php');
             <!--Dropdown menu populated from the database-->
             <fieldset>
                 <label for="playerPosition">Position: </label>
-                <select name="playerPosition" id="playerPosition">
+                <select name="playerPosition" id="playerPosition" placeholder="Click me for dropdown" required>
                     <?php
                         include ('Shared/database.php');
                         $sql = "SELECT positionName FROM positions";

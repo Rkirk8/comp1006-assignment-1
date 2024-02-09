@@ -17,5 +17,8 @@
             <li>
                 <a href="add-player.php">Add New Players</a>
             </li>
+            <li>
+                <a href="veiw-team.php">View Team</a>
+            </li>
         </ol>
     </header>
